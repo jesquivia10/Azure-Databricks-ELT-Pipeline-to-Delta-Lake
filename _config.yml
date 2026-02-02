@@ -1,0 +1,50 @@
+# Site Settings
+title: Azure Data Engineering Blog
+description: Building scalable data pipelines with Azure Databricks and Delta Lake
+author: Jose Esquivia
+email: your.email@example.com
+
+# GitHub Pages Settings
+url: "https://jesquivia10.github.io"
+baseurl: "/Azure-Databricks-ELT-Pipeline-to-Delta-Lake"
+
+# Theme
+theme: jekyll-theme-cayman
+
+# Markdown Processing
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# SEO
+twitter:
+  username: yourtwitterhandle
+  card: summary_large_image
+
+social:
+  name: Jose Esquivia
+  links:
+    - https://github.com/jesquivia10
+    - https://linkedin.com/in/yourprofile
+
+# Build settings
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .venv
+  - *.db
+  - src
+
+# Google Analytics (optional - add your tracking ID)
+# google_analytics: UA-XXXXXXXXX-X
